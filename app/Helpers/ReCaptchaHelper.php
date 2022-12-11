@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class ReCaptchaHelper
 {
-    private $secretKey = '6LdcjQ8jAAAAAOsfrkZ04JIHIVg_xn5Kn1n9yojK';
+    private $secretKey = '';
     private $captchaUrl = 'https://www.google.com/recaptcha/api/siteverify';
 
     public function check($recaptchaResponse, $userIp){
